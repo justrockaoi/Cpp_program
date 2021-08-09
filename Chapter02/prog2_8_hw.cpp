@@ -4,11 +4,12 @@
 using namespace std;
 
 int main(void)
-{
+{	
 	int num;
-	num= 3;
-	cout<<"I have "<<num<<" apples."<<endl;
-	cout<<"You have "<<num<<" apples,too."<<endl;
+	num = 6;
+	
+	cout<<"The girl is " <<num+2;
+	cout<<" years old. \n";
 	
 	system("pause");
 	return 0;

@@ -4,12 +4,10 @@
 using namespace std;
 
 int main(void)
-{
-	int num;
-	num= 3;
-	cout<<"I have "<<num<<" apples."<<endl;
-	cout<<"You have "<<num<<" apples,too."<<endl;
+{	
+	cout<<"We all love C++.\n";
 	
+
 	system("pause");
 	return 0;
 }

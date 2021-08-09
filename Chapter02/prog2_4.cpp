@@ -6,9 +6,10 @@ using namespace std;
 int main(void)
 {
 	int num;
-	num= 3;
-	cout<<"I have "<<num<<" apples."<<endl;
-	cout<<"You have "<<num<<" apples,too."<<endl;
+	num= 2;
+	cout<<"You have "<< num << " books.\n";
+	cout<<"I want "<< num << "books."<< endl;
+	
 	
 	system("pause");
 	return 0;

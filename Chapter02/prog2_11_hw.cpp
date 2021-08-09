@@ -4,11 +4,11 @@
 using namespace std;
 
 int main(void)
-{
-	int num;
-	num= 3;
-	cout<<"I have "<<num<<" apples."<<endl;
-	cout<<"You have "<<num<<" apples,too."<<endl;
+{	int num1,num2;
+	num1 = 10;
+	num2 = 5;
+	
+	cout<< num1 <<" + "<<num2<<" = "<< num1 + num2 <<endl;
 	
 	system("pause");
 	return 0;

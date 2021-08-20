@@ -1,2 +1,2 @@
 # Cpp_program
-For Learn C++ program 教學手冊
+For Learning C++ program 教學手冊

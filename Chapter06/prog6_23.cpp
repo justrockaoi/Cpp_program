@@ -1,4 +1,6 @@
-#include<iostream>
+//指數運算
+
+#include<iostream>  
 #include<cstdlib>
 using namespace std;
 

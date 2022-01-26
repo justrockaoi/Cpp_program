@@ -2,28 +2,33 @@
 #include<cstdlib>
 using namespace std;
 
-void reverse(char a[], char b[]);
+char reverse(char a[]);
 
 int main(void)
 {
 	char ch[5];
-	char chr[5];
+
 	cout << "Enter  a string:" ;
 	cin.getline(ch,5);
 	
-	reverse(ch,chr);
+	reverse(ch);
     
-	cout << chr <<endl;  
+	cout << ch <<endl;  
 	
 	system("pause");
 	return 0;
 }
 
-void reverse(char a[5], char b[5])
+char reverse(char a[5])
 {	
-	for(int i=0 ; i<5 ;i++)
+	char b[5];
+	for(int i=0;i<4;i++)
 	{
-		b[3-i] = a[i];
+		b[3-i]=a[i];
 	}
-
+	
+	for(int i=0;i<5;i++)
+		a[i]=b[i];
+		
+	return a[5];
 }

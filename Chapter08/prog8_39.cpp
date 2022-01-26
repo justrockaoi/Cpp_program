@@ -12,7 +12,8 @@ int main(void)
 	cin.getline(ch,5);
     
 	reverse(ch,chr);
-    cout << chr <<endl;  
+    
+	cout << chr <<endl;  
 	
 	system("pause");
 	return 0;
@@ -20,13 +21,10 @@ int main(void)
 
 char reverse(char a[4], char b[4])
 {	
-
 	for(int i=0 ; i<4 ;i++)
 	{
 		b[3-i] = a[i];
 	}
 
-	
-	
 	return b[4];
 }

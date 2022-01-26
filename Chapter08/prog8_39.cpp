@@ -23,9 +23,7 @@ char reverse(char a[5])
 {	
 	char b[5];
 	for(int i=0;i<4;i++)
-	{
 		b[3-i]=a[i];
-	}
 	
 	for(int i=0;i<5;i++)
 		a[i]=b[i];
